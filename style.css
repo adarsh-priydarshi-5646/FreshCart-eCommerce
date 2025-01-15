@@ -1,0 +1,132 @@
+/* Base Styles */
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Section */
+.header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+}
+
+.brand-logo {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #28a745;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo i {
+    font-size: 2.8rem;
+    margin-right: 0.5rem;
+}
+
+.header input[type="text"] {
+    font-size: 1.6rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80rem;
+}
+
+.icon-link {
+    position: relative;
+    font-size: 2.2rem;
+    color: #6c757d;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.icon-link:hover {
+    color: #28a745;
+}
+
+.icon-link .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    padding: 0.4rem 0.6rem;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background-color: #28a745;
+    color: white;
+    border-bottom: 1px solid #218838;
+}
+
+.nav-bar .btn {
+    font-size: 1.6rem;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.8rem 1.2rem;
+    color: #28a745;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links .nav-link {
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links .nav-link:hover {
+    color: #d4f4d4;
+}
+
+/* Hero Section */
+.hero-section {
+    border-radius: 5rem;
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+.hero-section .carousel img {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+img{
+    border-radius: 15rem;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Utility Classes */
+.text-success {
+    color: #28a745 !important;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
